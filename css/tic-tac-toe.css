@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display:flexbox;
+  background:#f4ecbc;   /*ece0a2*/
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  border-radius: 5%;
+  margin: auto;
+  margin-left: 31%;
+  margin-top: 10%;
+  margin-right: 60%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  background-color: #666;
+  border: 5px solid white;
+  font-size: 80px;
+  color: #fff;
+  border-radius: 10%;
+}
+
+#player {
+  padding: 1rem;
+  font-size: x-large;
+}
+
+body {
+  /* display: flex; */
+  background: #eee url('https://previews.123rf.com/images/homestudio/homestudio1107/homestudio110700182/10049929-tic-tac-toe-game-on-seamless-background.jpg') no-repeat
+    center center/cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* h1{
+  margin-left: 35%;
+} */
+
+footer {
+  text-align: center;
+  background-color: DarkSalmon;
+  padding: 1%;
+  color: white;
+  margin-top: 10%;
+  }
+  
+  a:hover{
+  color: black;
+  }
+  
+  .fa {
+  padding-left: 1%;
+  text-align: center;
+  margin-right: 2%;
+  }
+  @media only screen and (max-width:768px) {
+  footer {
+  margin-top: 80%;
+  }
+  
+  .fa{
+  margin-right: 15%;
+  }
+  }
+  
+  
