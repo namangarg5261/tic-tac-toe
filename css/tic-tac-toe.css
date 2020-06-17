@@ -67,10 +67,22 @@ footer {
   text-align: center;
   margin-right: 2%;
   }
-  @media only screen and (max-width:768px) {
+
+
+
+  @media only screen and (max-width:980px) {
   footer {
-  margin-top: 80%;
+    margin-top: 100%;
+ 
   }
+
+  .container {
+    margin: auto;
+    margin-top: 40%;
+    align-content: center;
+    justify-content: center;
+  }
+
   
   .fa{
   margin-right: 15%;
